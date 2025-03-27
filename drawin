@@ -317,7 +317,7 @@ function EspObject:Render()
 	visible.distance.Visible = enabled and onScreen and self.distance and options.distance;
 	if visible.distance.Visible then
 		local distance = visible.distance;
-		distance.Text = round(self.distance) .. " studs";
+		distance.Text = round(self.distance) .. "s";
 		distance.Size = interface.sharedSettings.textSize;
 		distance.Font = interface.sharedSettings.textFont;
 		distance.Color = options.distanceColor[1];
